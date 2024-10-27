@@ -73,7 +73,7 @@ export const Register = observer(() => {
                 input: InputStyled
               }} placeholder="Пароль" type="password" {...register('password')}/>
 
-              <input type="checkbox" {...register("politics")} /> я согласен что иду нахуй
+              <input type="checkbox" {...register("politics")} /> Нажимая на кнопку «Далее», я подтверждаю что ознакомлен с договором оферты и политикой конфиденциальности на платформе.
 
             </Stack>
           </RegisterForm>
