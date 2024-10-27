@@ -1,7 +1,6 @@
 import {AccountCoursesHeadText, AccountCoursesRoot} from "./AccountCourses.styled";
 import {Stack} from "@mui/system";
 import {Course} from "./Course/Course";
-import {getCourse, getCourses} from "./api.ts";
 
 export const AccountCourses = () => {
   // getCourses()
