@@ -10,7 +10,7 @@ import mkcert from 'vite-plugin-mkcert';
 const config = defineConfig(() => {
   return {
     base: '/',
-    build: { outDir: './build', assetsDir: 'static' },
+    build: { outDir: './dist', assetsDir: 'static' },
     plugins: [
       mkcert(),
       // todo: remove after esbuild (or vite itself or any plugin else) will support tc39 decorators proposal
