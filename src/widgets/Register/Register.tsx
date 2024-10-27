@@ -44,7 +44,6 @@ export const Register = observer(() => {
     // registerModel.setPage()
   }
 
-  console.log(11)
   const renderFunc = () => {
     switch (registerModel.registerPage) {
       case RegisterType.info:
@@ -74,8 +73,10 @@ export const Register = observer(() => {
                 input: InputStyled
               }} placeholder="Пароль" type="password" {...register('password')}/>
 
-              <input type="checkbox" {...register("politics")} /> Нажимая на кнопку «Далее», я подтверждаю что ознакомлен с договором оферты и политикой конфиденциальности на платформе.
-
+              <input type="checkbox" {...register("politics")} />
+              <p>
+              Нажимая на кнопку «Далее», я подтверждаю что ознакомлен с договором оферты и политикой конфиденциальности на платформе.
+              </p>
             </Stack>
           </RegisterForm>
           <RegisterText>Вы хотите зарегестрироваться как?</RegisterText>
