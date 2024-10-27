@@ -44,7 +44,6 @@ export const Register = observer(() => {
     // registerModel.setPage()
   }
 
-  console.log(11)
   const renderFunc = () => {
     switch (registerModel.registerPage) {
       case RegisterType.info:
