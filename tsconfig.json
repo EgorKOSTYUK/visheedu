@@ -15,7 +15,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "suppressImplicitAnyIndexErrors": true,
     "ignoreDeprecations": "5.0",
     "useUnknownInCatchVariables": false,
     "jsx": "react-jsx",
